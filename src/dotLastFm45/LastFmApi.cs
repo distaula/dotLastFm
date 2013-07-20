@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 
 using DotLastFm45.Api;
+using dotLastFm45.Api;
 
 namespace dotLastFm45
 {
@@ -25,6 +26,7 @@ namespace dotLastFm45
 			Tag = new TagApi(this);
 			Album = new AlbumApi(this);
 			Artist = new ArtistApi(this);
+			User = new UserApi(this);
 		}
 
 		/// <summary>
@@ -46,6 +48,11 @@ namespace dotLastFm45
 		///     Gets the tag API methods.
 		/// </summary>
 		public ITagApi Tag { get; private set; }
+
+		/// <summary>
+		///     Gets the user API methods.
+		/// </summary>
+		public IUserApi User { get; private set; }
 
 		/// <summary>
 		///     Gets the track API methods.

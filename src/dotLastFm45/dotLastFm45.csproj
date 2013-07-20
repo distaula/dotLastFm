@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Api\AlbumApi.cs" />
     <Compile Include="Api\ArtistApi.cs" />
+    <Compile Include="Api\UserApi.cs" />
     <Compile Include="Api\IAlbumApi.cs" />
     <Compile Include="Api\IArtistApi.cs" />
     <Compile Include="Api\ILastFmApi.cs" />
@@ -59,6 +60,8 @@
     <Compile Include="Api\Rest\RestWrapperExtension.cs" />
     <Compile Include="Api\TagApi.cs" />
     <Compile Include="Api\TrackApi.cs" />
+    <Compile Include="Api\IUserApi.cs" />
+    <Compile Include="Models\UserTopArtist.cs" />
     <Compile Include="LastFmApi.cs" />
     <Compile Include="Models\Album.cs" />
     <Compile Include="Models\AlbumTrack.cs" />
@@ -85,6 +88,7 @@
     <Compile Include="Models\Wiki.cs" />
     <Compile Include="Models\Wrappers\AlbumWithDetailsWrapper.cs" />
     <Compile Include="Models\Wrappers\ArtistWithDetailsWrapper.cs" />
+    <Compile Include="Models\Wrappers\UserTopArtistWrapper.cs" />
     <Compile Include="Models\Wrappers\TagSimilarWrapper.cs" />
     <Compile Include="Models\Wrappers\TagTopAlbumWrapper.cs" />
     <Compile Include="Models\Wrappers\TagTopArtistWrapper.cs" />

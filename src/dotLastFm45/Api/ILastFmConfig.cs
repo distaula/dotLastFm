@@ -25,5 +25,10 @@ namespace DotLastFm45.Api
 		///     Gets the Last.fm's secret.
 		/// </summary>
 		string Secret { get; }
+
+		/// <summary>
+		///		Gets the verified username
+		/// </summary>
+		string Username { get; }
 	}
 }
