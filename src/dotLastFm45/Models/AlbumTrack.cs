@@ -4,6 +4,8 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
+using RestSharp.Deserializers;
+
 namespace DotLastFm45.Models
 {
 	/// <summary>
